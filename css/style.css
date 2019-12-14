@@ -1,21 +1,54 @@
+/* Setting box-sizing for all elements to border-box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* changing the element settings for body, h1, and h3 */
 body {
-  background-color: #333;
+  background-color: #dfdee0;
   font-family: sans-serif;
   font-size: 10px;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+
+/* changing the element settings for containter */
+
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 100%;
 }
 
+/* changing the element settings for nav */
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0px 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 100%;
+  background-color: #000000;
 }
 
+/* changing the element settings for restaurant-list and placement of the arrow to the right*/
+
 .restaurant-list {
-  padding-top: 50px;
+  margin-left: 5%;
+  padding-top: 15%;
+  width: 100%
+}
+
+.arrow {
+  margin-left: 90%;
+}
+
+
+/* Adding hover display setting for location classes */
+.location:hover {
+  background-color: #00ff00;
 }
