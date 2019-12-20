@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 /* changing the element settings for body, h1, and h3 */
 body {
   background-color: #dfdee0;
@@ -20,35 +21,50 @@ h3 {
 
 
 /* changing the element settings for containter */
-
 .container {
-  margin: 0 auto;
   width: 100%;
+  border-left: 50px solid #3a3a3a;
+  border-right: 50px solid #3a3a3a;
+  float: center;
 }
 
-/* changing the element settings for nav */
+/* for alignment purposes - changed the display of content and arrow */
+.content {
+  display: inline-block;
+  padding: 3%;
+  width: 73%;
+}
+
+.arrow {
+  display: inline-block;
+  padding-left: 15%;
+  width: 10%;
+}
+
+/* changing the Nav settings - changed background color and width */
 nav {
   margin: 0 auto;
-  padding: 10px 0px 15px 15px;
-  position: fixed;
+  padding: 10px 0 15px 15px;
   width: 100%;
   background-color: #000000;
 }
 
-/* changing the element settings for restaurant-list and placement of the arrow to the right*/
-
+/* changing the restaurant list settings */
 .restaurant-list {
-  margin-left: 5%;
-  padding-top: 15%;
-  width: 100%
+  padding-top: 0;
+  float: center;
+  width: 100%;
 }
-
-.arrow {
-  margin-left: 90%;
-}
-
 
 /* Adding hover display setting for location classes */
 .location:hover {
-  background-color: #00ff00;
+  background-color: #f16869;
+}
+
+
+/*adding divider lines */
+.divider {
+  display: block;
+  padding: 1px 0;
+  background-color: #ccc;
 }
